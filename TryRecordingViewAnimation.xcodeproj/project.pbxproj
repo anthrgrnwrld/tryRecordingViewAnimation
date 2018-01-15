@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6890001200CE12500AB565D /* TryRecordingViewAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6890000200CE12500AB565D /* TryRecordingViewAnimationTests.swift */; };
+		C689000C200CE12500AB565D /* TryRecordingViewAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689000B200CE12500AB565D /* TryRecordingViewAnimationUITests.swift */; };
+		C689FFEC200CE12500AB565D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689FFEB200CE12500AB565D /* AppDelegate.swift */; };
+		C689FFEE200CE12500AB565D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689FFED200CE12500AB565D /* ViewController.swift */; };
+		C689FFF1200CE12500AB565D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C689FFEF200CE12500AB565D /* Main.storyboard */; };
+		C689FFF3200CE12500AB565D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C689FFF2200CE12500AB565D /* Assets.xcassets */; };
+		C689FFF6200CE12500AB565D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C689FFF4200CE12500AB565D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6890008200CE12500AB565D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C689FFE0200CE12400AB565D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C689FFE7200CE12400AB565D;
+			remoteInfo = TryRecordingViewAnimation;
+		};
+		C689FFFD200CE12500AB565D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C689FFE0200CE12400AB565D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C689FFE7200CE12400AB565D;
+			remoteInfo = TryRecordingViewAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6890000200CE12500AB565D /* TryRecordingViewAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryRecordingViewAnimationTests.swift; sourceTree = "<group>"; };
+		C6890002200CE12500AB565D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6890007200CE12500AB565D /* TryRecordingViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryRecordingViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C689000B200CE12500AB565D /* TryRecordingViewAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryRecordingViewAnimationUITests.swift; sourceTree = "<group>"; };
+		C689000D200CE12500AB565D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C689FFE8200CE12400AB565D /* TryRecordingViewAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryRecordingViewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C689FFEB200CE12500AB565D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C689FFED200CE12500AB565D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C689FFF0200CE12500AB565D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C689FFF2200CE12500AB565D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C689FFF5200CE12500AB565D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C689FFF7200CE12500AB565D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C689FFFC200CE12500AB565D /* TryRecordingViewAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryRecordingViewAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6890004200CE12500AB565D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C689FFE5200CE12400AB565D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C689FFF9200CE12500AB565D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C689000A200CE12500AB565D /* TryRecordingViewAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C689000B200CE12500AB565D /* TryRecordingViewAnimationUITests.swift */,
+				C689000D200CE12500AB565D /* Info.plist */,
+			);
+			path = TryRecordingViewAnimationUITests;
+			sourceTree = "<group>";
+		};
+		C689FFDF200CE12400AB565D = {
+			isa = PBXGroup;
+			children = (
+				C689FFEA200CE12500AB565D /* TryRecordingViewAnimation */,
+				C689FFFF200CE12500AB565D /* TryRecordingViewAnimationTests */,
+				C689000A200CE12500AB565D /* TryRecordingViewAnimationUITests */,
+				C689FFE9200CE12400AB565D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C689FFE9200CE12400AB565D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C689FFE8200CE12400AB565D /* TryRecordingViewAnimation.app */,
+				C689FFFC200CE12500AB565D /* TryRecordingViewAnimationTests.xctest */,
+				C6890007200CE12500AB565D /* TryRecordingViewAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C689FFEA200CE12500AB565D /* TryRecordingViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C689FFEB200CE12500AB565D /* AppDelegate.swift */,
+				C689FFED200CE12500AB565D /* ViewController.swift */,
+				C689FFEF200CE12500AB565D /* Main.storyboard */,
+				C689FFF2200CE12500AB565D /* Assets.xcassets */,
+				C689FFF4200CE12500AB565D /* LaunchScreen.storyboard */,
+				C689FFF7200CE12500AB565D /* Info.plist */,
+			);
+			path = TryRecordingViewAnimation;
+			sourceTree = "<group>";
+		};
+		C689FFFF200CE12500AB565D /* TryRecordingViewAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6890000200CE12500AB565D /* TryRecordingViewAnimationTests.swift */,
+				C6890002200CE12500AB565D /* Info.plist */,
+			);
+			path = TryRecordingViewAnimationTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6890006200CE12500AB565D /* TryRecordingViewAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6890016200CE12500AB565D /* Build configuration list for PBXNativeTarget "TryRecordingViewAnimationUITests" */;
+			buildPhases = (
+				C6890003200CE12500AB565D /* Sources */,
+				C6890004200CE12500AB565D /* Frameworks */,
+				C6890005200CE12500AB565D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6890009200CE12500AB565D /* PBXTargetDependency */,
+			);
+			name = TryRecordingViewAnimationUITests;
+			productName = TryRecordingViewAnimationUITests;
+			productReference = C6890007200CE12500AB565D /* TryRecordingViewAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C689FFE7200CE12400AB565D /* TryRecordingViewAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6890010200CE12500AB565D /* Build configuration list for PBXNativeTarget "TryRecordingViewAnimation" */;
+			buildPhases = (
+				C689FFE4200CE12400AB565D /* Sources */,
+				C689FFE5200CE12400AB565D /* Frameworks */,
+				C689FFE6200CE12400AB565D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryRecordingViewAnimation;
+			productName = TryRecordingViewAnimation;
+			productReference = C689FFE8200CE12400AB565D /* TryRecordingViewAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C689FFFB200CE12500AB565D /* TryRecordingViewAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6890013200CE12500AB565D /* Build configuration list for PBXNativeTarget "TryRecordingViewAnimationTests" */;
+			buildPhases = (
+				C689FFF8200CE12500AB565D /* Sources */,
+				C689FFF9200CE12500AB565D /* Frameworks */,
+				C689FFFA200CE12500AB565D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C689FFFE200CE12500AB565D /* PBXTargetDependency */,
+			);
+			name = TryRecordingViewAnimationTests;
+			productName = TryRecordingViewAnimationTests;
+			productReference = C689FFFC200CE12500AB565D /* TryRecordingViewAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C689FFE0200CE12400AB565D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = anthrgrnwrld;
+				TargetAttributes = {
+					C6890006200CE12500AB565D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C689FFE7200CE12400AB565D;
+					};
+					C689FFE7200CE12400AB565D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C689FFFB200CE12500AB565D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C689FFE7200CE12400AB565D;
+					};
+				};
+			};
+			buildConfigurationList = C689FFE3200CE12400AB565D /* Build configuration list for PBXProject "TryRecordingViewAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C689FFDF200CE12400AB565D;
+			productRefGroup = C689FFE9200CE12400AB565D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C689FFE7200CE12400AB565D /* TryRecordingViewAnimation */,
+				C689FFFB200CE12500AB565D /* TryRecordingViewAnimationTests */,
+				C6890006200CE12500AB565D /* TryRecordingViewAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6890005200CE12500AB565D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C689FFE6200CE12400AB565D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C689FFF6200CE12500AB565D /* LaunchScreen.storyboard in Resources */,
+				C689FFF3200CE12500AB565D /* Assets.xcassets in Resources */,
+				C689FFF1200CE12500AB565D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C689FFFA200CE12500AB565D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6890003200CE12500AB565D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C689000C200CE12500AB565D /* TryRecordingViewAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C689FFE4200CE12400AB565D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C689FFEE200CE12500AB565D /* ViewController.swift in Sources */,
+				C689FFEC200CE12500AB565D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C689FFF8200CE12500AB565D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6890001200CE12500AB565D /* TryRecordingViewAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6890009200CE12500AB565D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C689FFE7200CE12400AB565D /* TryRecordingViewAnimation */;
+			targetProxy = C6890008200CE12500AB565D /* PBXContainerItemProxy */;
+		};
+		C689FFFE200CE12500AB565D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C689FFE7200CE12400AB565D /* TryRecordingViewAnimation */;
+			targetProxy = C689FFFD200CE12500AB565D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C689FFEF200CE12500AB565D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C689FFF0200CE12500AB565D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C689FFF4200CE12500AB565D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C689FFF5200CE12500AB565D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C689000E200CE12500AB565D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C689000F200CE12500AB565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6890011200CE12500AB565D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBV73EJ8V2;
+				INFOPLIST_FILE = TryRecordingViewAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.TryRecordingViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6890012200CE12500AB565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBV73EJ8V2;
+				INFOPLIST_FILE = TryRecordingViewAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.TryRecordingViewAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6890014200CE12500AB565D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBV73EJ8V2;
+				INFOPLIST_FILE = TryRecordingViewAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.TryRecordingViewAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryRecordingViewAnimation.app/TryRecordingViewAnimation";
+			};
+			name = Debug;
+		};
+		C6890015200CE12500AB565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBV73EJ8V2;
+				INFOPLIST_FILE = TryRecordingViewAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.TryRecordingViewAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryRecordingViewAnimation.app/TryRecordingViewAnimation";
+			};
+			name = Release;
+		};
+		C6890017200CE12500AB565D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBV73EJ8V2;
+				INFOPLIST_FILE = TryRecordingViewAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.TryRecordingViewAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryRecordingViewAnimation;
+			};
+			name = Debug;
+		};
+		C6890018200CE12500AB565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBV73EJ8V2;
+				INFOPLIST_FILE = TryRecordingViewAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.TryRecordingViewAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryRecordingViewAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6890010200CE12500AB565D /* Build configuration list for PBXNativeTarget "TryRecordingViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6890011200CE12500AB565D /* Debug */,
+				C6890012200CE12500AB565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6890013200CE12500AB565D /* Build configuration list for PBXNativeTarget "TryRecordingViewAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6890014200CE12500AB565D /* Debug */,
+				C6890015200CE12500AB565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6890016200CE12500AB565D /* Build configuration list for PBXNativeTarget "TryRecordingViewAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6890017200CE12500AB565D /* Debug */,
+				C6890018200CE12500AB565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C689FFE3200CE12400AB565D /* Build configuration list for PBXProject "TryRecordingViewAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C689000E200CE12500AB565D /* Debug */,
+				C689000F200CE12500AB565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C689FFE0200CE12400AB565D /* Project object */;
+}
