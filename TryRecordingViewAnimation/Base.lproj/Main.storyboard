@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +15,65 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TryRecordingViewAnimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cqp-KO-emF">
+                                <rect key="frame" x="46.5" y="193" width="281" height="281"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gat-vI-Ce3">
+                                        <rect key="frame" x="221" y="115.5" width="50" height="50"/>
+                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="gat-vI-Ce3" secondAttribute="height" multiplier="1:1" id="hgL-NU-d2R"/>
+                                            <constraint firstAttribute="width" constant="50" id="uD8-yD-B3d"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Cqp-KO-emF" secondAttribute="height" multiplier="1:1" id="uVL-d4-efk"/>
+                                    <constraint firstItem="gat-vI-Ce3" firstAttribute="centerY" secondItem="Cqp-KO-emF" secondAttribute="centerY" id="uak-P1-VU1"/>
+                                    <constraint firstAttribute="trailing" secondItem="gat-vI-Ce3" secondAttribute="trailing" constant="10" id="xN7-GS-ctN"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTK-6o-IX3">
+                                <rect key="frame" x="133.5" y="514" width="108" height="30"/>
+                                <state key="normal" title="Start Recording"/>
+                                <connections>
+                                    <action selector="pressStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJa-4C-MdN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffe-aM-cni">
+                                <rect key="frame" x="134" y="576" width="106" height="30"/>
+                                <state key="normal" title="Stop Recording"/>
+                                <connections>
+                                    <action selector="pressStopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7k8-aS-c9W"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ffe-aM-cni" firstAttribute="top" secondItem="eTK-6o-IX3" secondAttribute="bottom" constant="32" id="6MA-kE-Vpj"/>
+                            <constraint firstItem="Ffe-aM-cni" firstAttribute="centerX" secondItem="eTK-6o-IX3" secondAttribute="centerX" id="Q06-tu-lIX"/>
+                            <constraint firstItem="eTK-6o-IX3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ReR-t2-oYi"/>
+                            <constraint firstItem="Cqp-KO-emF" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.75" id="Svx-vX-4DM"/>
+                            <constraint firstItem="Cqp-KO-emF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eJp-Wm-LcC"/>
+                            <constraint firstItem="eTK-6o-IX3" firstAttribute="top" secondItem="Cqp-KO-emF" secondAttribute="bottom" constant="40" id="eZF-Cg-l6h"/>
+                            <constraint firstItem="Cqp-KO-emF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rCB-PL-Tsa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="movingBlock" destination="gat-vI-Ce3" id="qo7-n8-VFP"/>
+                        <outlet property="recordingTargetView" destination="Cqp-KO-emF" id="9F3-SJ-jlt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="131.78410794602701"/>
         </scene>
     </scenes>
 </document>

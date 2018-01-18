@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C6890001200CE12500AB565D /* TryRecordingViewAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6890000200CE12500AB565D /* TryRecordingViewAnimationTests.swift */; };
 		C689000C200CE12500AB565D /* TryRecordingViewAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689000B200CE12500AB565D /* TryRecordingViewAnimationUITests.swift */; };
+		C689001C20108D1900AB565D /* RecordingViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689001B20108D1900AB565D /* RecordingViewAnimation.swift */; };
 		C689FFEC200CE12500AB565D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689FFEB200CE12500AB565D /* AppDelegate.swift */; };
 		C689FFEE200CE12500AB565D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689FFED200CE12500AB565D /* ViewController.swift */; };
 		C689FFF1200CE12500AB565D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C689FFEF200CE12500AB565D /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		C6890007200CE12500AB565D /* TryRecordingViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryRecordingViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C689000B200CE12500AB565D /* TryRecordingViewAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryRecordingViewAnimationUITests.swift; sourceTree = "<group>"; };
 		C689000D200CE12500AB565D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C689001B20108D1900AB565D /* RecordingViewAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingViewAnimation.swift; sourceTree = "<group>"; };
 		C689FFE8200CE12400AB565D /* TryRecordingViewAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryRecordingViewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C689FFEB200CE12500AB565D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C689FFED200CE12500AB565D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				C689FFEB200CE12500AB565D /* AppDelegate.swift */,
 				C689FFED200CE12500AB565D /* ViewController.swift */,
+				C689001B20108D1900AB565D /* RecordingViewAnimation.swift */,
 				C689FFEF200CE12500AB565D /* Main.storyboard */,
 				C689FFF2200CE12500AB565D /* Assets.xcassets */,
 				C689FFF4200CE12500AB565D /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C689FFEE200CE12500AB565D /* ViewController.swift in Sources */,
+				C689001C20108D1900AB565D /* RecordingViewAnimation.swift in Sources */,
 				C689FFEC200CE12500AB565D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
