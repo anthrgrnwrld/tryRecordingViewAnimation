@@ -24,10 +24,11 @@ recorder.delegate = self
 //   parameter view: Enter the view that you would like to recodrd.
 //   parameter fpsSetting: Enter the frame rate setting. (If you set 30, frame number is 30 per 1 second.)
 let isSuccessToRec = recorder.startRecording(view: self.recordingTargetView, fpsSetting: 30)
+```
 
 2. Stop recording
 
-```swift
+```
 //1. Make instance of RecViewAnimation (RecViewAnimation is Singleton class.)
 let recorder = RecViewAnimation.shared
 
