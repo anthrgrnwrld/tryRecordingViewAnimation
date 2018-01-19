@@ -39,6 +39,8 @@ let isSuccessedToRec = recorder.stopRecording()
 
 3. Delegate method
 
+First, please add the description of "RecViewAnimationDelegate" to YOUR VIEWCONTROLLER.
+
  - recViewDidFinishedToSaveDelegate(): 
   When RecViewAnimation instance finished to save the movie file to Photo library of iOS device, this delegate method is called.
  
