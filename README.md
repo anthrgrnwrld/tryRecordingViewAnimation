@@ -28,7 +28,7 @@ let isSuccessToRec = recorder.startRecording(view: self.recordingTargetView, fps
 
 2. Stop recording
 
-```
+```swift
 //1. Make instance of RecViewAnimation (RecViewAnimation is Singleton class.)
 let recorder = RecViewAnimation.shared
 
@@ -39,10 +39,10 @@ let isSuccessedToRec = recorder.stopRecording()
 
 3. Delegate method
 
- - recViewDidFinishedToSaveDelegate()
+ - recViewDidFinishedToSaveDelegate(): 
   When RecViewAnimation instance finished to save the movie file to Photo library of iOS device, this delegate method is called.
  
- - recViewDidFinishedWithoutCallToStop()
+ - recViewDidFinishedWithoutCallToStop(): 
   RecViewAnimation does not permit to change view size during recording.
   If it happens view size is changed, it will stop to record.
   When it happens above, this delegate method is called.
